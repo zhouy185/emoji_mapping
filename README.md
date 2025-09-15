@@ -10,11 +10,35 @@ You are given a dictionary of words mapped to emojis:
 ```python
 EMOJI_MAP = {
     "happy": "😀",
-    "sad": "😢",
-    "angry": "😡",
-    "tired": "😴",
+    "joyful": "😄",
     "excited": "🤩",
-    "confused": "🤔"
+    "proud": "😌",
+    "calm": "🙂",
+    "confident": "😎",
+    "playful": "😜",
+    "silly": "🤪",
+    "angry": "😡",
+    "frustrated": "😤",
+    "sad": "😢",
+    "lonely": "🥺",
+    "scared": "😱",
+    "worried": "😟",
+    "tired": "😴",
+    "confused": "🤔",
+    "surprised": "😮",
+    "loving": "❤️",
+    "grateful": "🙏"
 }
+```
+
+Write Python codes in **emoji_map.ipynb** to:
+
+* Splits the input text into words.
+
+* Replaces words found in EMOJI_MAP with their emoji.
+
+* Keeps all other words unchanged.
+
+For example, "I am happy but also tired" will be converted to "I am 😀 but also 😴"
 
 
